@@ -7,10 +7,6 @@ class TodoModel(models.Model):
     time = models.DateTimeField()
 
     def __str__(self):
-        return self.description
-
-    def __str__(self):
         return self.title
 
-    def __str__(self):
-        return self.time 
+

@@ -12,8 +12,8 @@ class TodoCreateView(CreateView):
     ]
 
     template_name = 'home.html'
-    success_url = "list.html"
+    success_url = 'list.html'
 
 class TodoListView(ListView):
     model = TodoModel
-    template_name = "list.html"
+    template_name = 'list.html'
